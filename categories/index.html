@@ -187,5 +187,25 @@
 
 <!-- utterances Comments -->
 
+    <script type="text/javascript">
+      var utterances_repo = 'silentlightnatsu/hexo-blog-comment';
+      var utterances_issue_term = 'title';
+      var utterances_label = 'Comment';
+      var utterances_theme = 'github-dark';
+
+      (function(){
+          var script = document.createElement('script');
+
+          script.src = 'https://utteranc.es/client.js';
+          script.setAttribute('repo', utterances_repo);
+          script.setAttribute('issue-term', 'pathname');
+          script.setAttribute('label', utterances_label);
+          script.setAttribute('theme', utterances_theme);
+          script.setAttribute('crossorigin', 'anonymous');
+          script.async = true;
+          (document.getElementById('utterances_thread')).appendChild(script);
+      }());
+  </script>
+
 <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"display":{"position":"right","width":150,"height":250},"mobile":{"show":false},"model":{"jsonPath":"/live2dw/assets/kurumi.model.json"},"log":false});</script></body>
 </html>
